@@ -2,10 +2,12 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "npm i && npm i fomantic-ui --no-save --ignore-script && vite build"
     },
     "devDependencies": {
         "axios": "^1.1.2",
+        "fomantic-ui": "^2.9.2",
+        "jquery": "^3.6.4",
         "laravel-vite-plugin": "^0.7.2",
         "vite": "^4.0.0"
     }
