@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 require __DIR__ .'/viacep.php';
+require __DIR__ . '/rickandmortyapi.php';
